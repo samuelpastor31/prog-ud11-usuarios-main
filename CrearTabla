@@ -1,0 +1,10 @@
+CREATE TABLE User (
+    dni VARCHAR(50) PRIMARY KEY,
+    name VARCHAR(50) NOT NULL,
+    surname VARCHAR(50) NOT NULL,
+    email VARCHAR(100) NOT NULL,
+    zipCode VARCHAR(10) NOT NULL,
+    mobilePhone VARCHAR(20) NOT NULL,
+    birthday DATE NOT NULL,
+    password VARCHAR(100) NOT NULL
+);
